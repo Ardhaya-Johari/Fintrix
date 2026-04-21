@@ -1,8 +1,5 @@
 # 🚀 Fintrix – Finance Dashboard 
 
-![GitHub forks](https://img.shields.io/github/forks/your-username/fintrix?style=social)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 > A modern, responsive **finance dashboard UI** built to visualize income, expenses, and financial insights with a clean and intuitive user experience.
 
 ---
