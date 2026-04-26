@@ -1,3 +1,4 @@
+# 🚀 Fintrix – Finance Dashboard 
 
 > A modern, responsive **finance dashboard UI** built to visualize income, expenses, and financial insights with a clean and intuitive user experience.
 
