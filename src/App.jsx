@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
-import Dashboard from "./pages/Dashboard";
-import { AppProvider } from "./context/AppContext";
+
 
 function App() {
   const [dark, setDark] = useState(true);
