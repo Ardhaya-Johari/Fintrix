@@ -25,17 +25,3 @@ export const getCategoryData = (transactions) => {
   }));
 };
 
-export const getMonthlyData = (transactions) => {
-  const map = {};
-
-  transactions.forEach(t => {
-    const month = t.date.slice(0, 7);
-
-    map[month] = (map[month] || 0) + (t.type === "income" ? t.amount : -t.amount);
-  });
-
-  return Object.keys(map).map(key => ({
-    month: key,
-    balance: map[key],
-  }));
-};
